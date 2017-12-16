@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="fonts/iconfont.css">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		html, body {
+			width: 100%;
+			height: 100%;
+		}
+		.layout {
+			width: 100%;
+			height: 100%;
+		}
+		.bg {
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			position: relative;
+		}
+		.bg img {
+			display: block;
+			width: 100%;
+		}
+		.box  {
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			top: 100px;
+			width: 100%;
+
+
+
+		}
+		.box .title {
+			text-align: center;
+			font-size: 50px;
+			color: #ffd251;
+			padding-bottom: 60px;
+		}
+		form {
+			padding: 0 50px;
+			text-align: center;
+			position: relative;
+		}
+		.userName {
+			width: 100%;
+			height: 40px;
+			margin-bottom: 10px;
+			background: rgba(0, 0, 0, .4);
+			border: 0;
+			color: #cdcdcd;
+			padding-left: 40px;
+			box-sizing: border-box;
+			font-size: 16px;
+
+		}
+		.password {
+			width: 100%;
+			height: 40px;
+			background: rgba(0, 0, 0, .4);
+			border: 0;
+			color: #cdcdcd;
+			padding-left: 40px;
+			box-sizing: border-box;
+			font-size: 16px;
+		}
+		button {
+			width: 60%;
+			height: 40px;
+			background-color: #ffcf49;
+			border: 0;
+			margin-top: 30px;
+			font-size: 20px;
+			border-radius: 20px;
+		}
+		.bound {
+			height: 3px;
+			background-color: #ffcf49;
+			margin: 30px 50px 0 50px;
+
+		}
+		h4 {
+			margin-top: 10px;
+			text-align: center;
+			font-size: 20px;
+			color: #ffcf49;
+		}
+		.icon-yonghu {
+			position: absolute;
+			top: 10px;
+			left: 60px;
+			font-size: 20px!important;
+
+		}
+		.icon-mima {
+			position: absolute;
+			top: 58px;
+			left: 60px;
+			font-size: 20px!important;
+		}
+
+		 
+
+	</style>
+</head>
+<body>
+	<div class="layout">
+		<div class="bg">
+			<img src="images/bg1.png" alt="">
+			<div class="box">
+				<p class="title">Q享掌柜</p>
+				<form action="" class="loginBox">
+					<input type="text" class="userName" placeholder="手机号/用户名">
+					<i class="icon-yonghu iconfont"></i>
+					<i class="icon-mima iconfont"></i>
+					<input type="text" class="password" placeholder="密码">
+					<button>登录</button>
+
+				</form>
+				<div class="bound"></div>
+				<h4>忘记密码?</h4>
+
+				
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>

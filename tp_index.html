@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="fonts/iconfont.css">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		html, body {
+			width: 100%;
+			height: 100%;
+		}
+		.layout {
+			width: 100%;
+			height: 100%;
+		}
+		.header {
+			width: 100%;
+			position: relative;
+		}
+		.bg_03 {
+			width: 100%;
+			display: block;
+		}
+		.gqt_03 {
+			width: 50px;
+			position: absolute;
+			display: block;
+			top: 25px;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+		.music1_03 {
+			width: 30px;
+			position: absolute;
+			top: 25px;
+			right: 25px;
+		}
+		/*搜索开始*/
+		.box {
+			/*width: 100%;*/
+			height: 50px;
+			background-color: #d40e05;
+			padding: 0 80px;
+			position: relative;
+		}
+		.search {
+			float: left;
+			line-height: 50px;
+			font-size: 18px;
+			color: #fff;
+			margin-left: 20px;
+		}
+		.message {
+			float: right;
+			line-height: 50px;
+			font-size: 18px;
+			color: #fff;
+			margin-right: 20px;
+		}
+		.icon-sousuo {
+			position: absolute;
+			top: 14px;
+			left: 80px;
+			font-size: 20px;
+			color: #fff;
+		}
+		.icon-xiaoxi {
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="layout">
+		<!-- 头部开始 -->
+		<div class="header">
+			<img src="images/bg_03.png" alt="" class="bg_03">
+			<img src="images/gqt_03.png" alt="" class="gqt_03">
+			<img src="images/music1_03.png" alt="" class="music1_03">
+		</div>
+
+		<!-- 搜索开始 -->
+		<div class="box">
+			<i class="icon-sousuo iconfont"></i>
+			<p class="search">搜索</p>
+			<p class="message">留言</p>
+			<i class="icon-xiaoxi iconfont"></i>
+		</div>
+
+	</div>
+</body>
+</html>
